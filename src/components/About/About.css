@@ -1,0 +1,14 @@
+.about-block {
+    max-width: 900px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-block h2 {
+    font-size: 24px;
+}
+
+.left-img {
+    padding-right: 80px;
+}

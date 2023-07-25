@@ -1,0 +1,30 @@
+nav, ul, li {
+    display: inline;
+}
+
+.top {
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.bottom {
+    display: block;
+    margin: 30px 0;
+}
+
+.bottom a {
+    color: #000;
+}
+
+.bottom li img {
+    filter: invert(100%);
+}

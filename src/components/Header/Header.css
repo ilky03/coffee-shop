@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.header {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header h3 {
+    font-size: 24px;
+}
+
+.header button {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, .0);
+    padding: 10px 42px;
+    color: #fff;
+    font-family: 'Merienda', cursive;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.header button:hover {
+    background-color: rgba(255, 255, 255, .65);
+    cursor: pointer;
+}
