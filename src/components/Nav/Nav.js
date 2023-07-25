@@ -10,7 +10,7 @@ const Nav = ({position}) => {
         <nav className={activeClass}>
             <ul>
                 <li>
-                    <Link to="/"><img src="https://imgur.com/vFAF80T.png" alt='beans' />Coffee house</Link>
+                    <Link to="/coffee-shop"><img src="https://imgur.com/vFAF80T.png" alt='beans' />Coffee house</Link>
                 </li>
                 <li>
                     <Link to="/our-coffee">Our coffee</Link>
