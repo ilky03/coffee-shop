@@ -17,6 +17,11 @@ h6 {
     -webkit-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 44px -19px rgba(0,0,0,0.75);
+    font-size: 14px;
+}
+
+.card h6 {
+    font-size: 14px;
 }
 
 .card img {
@@ -32,3 +37,19 @@ h6 {
 .card:hover {
     cursor: pointer;
 }
+
+@media (max-width:950px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:600px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+}
+

@@ -12,3 +12,15 @@
 .left-img {
     padding-right: 80px;
 }
+
+@media (max-width: 950px) {
+    .about-block {
+        display: block;
+        max-width: 900px;
+        padding: 0 30px;
+    }
+
+    .left-img {
+        padding: 0;
+    }
+}

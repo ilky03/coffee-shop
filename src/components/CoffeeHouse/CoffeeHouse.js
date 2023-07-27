@@ -5,9 +5,9 @@ import Cards from '../Cards/Cards';
 import './CoffeeHouse.css'
 
 const dataForCards = [
-    {title: 'Solimo Coffee Beans 2kg', price: '10.73$', imgUrl: 'https://imgur.com/kz8BmO1.png'},
-    {title: 'Presto Coffee Beans 1kg', price: '15.99$', imgUrl: 'https://imgur.com/LZjF5Su.png'},
-    {title: 'AROMISTICO Coffee 1kg', price: '6.99$', imgUrl: 'https://imgur.com/7CtoR8V.png'},
+    {id: 0, title: 'Solimo Coffee Beans 2kg', price: '10.73$', imgUrl: 'https://imgur.com/kz8BmO1.png'},
+    {id: 1, title: 'Presto Coffee Beans 1kg', price: '15.99$', imgUrl: 'https://imgur.com/LZjF5Su.png'},
+    {id: 2, title: 'AROMISTICO Coffee 1kg', price: '6.99$', imgUrl: 'https://imgur.com/7CtoR8V.png'},
 ]
 
 const CoffeeHouse = () => {

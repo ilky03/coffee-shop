@@ -5,9 +5,10 @@ const Cards = ({data}) => {
 
     const cards = data.map(card => {
         return (
-            <div className='card' key={Math.trunc(Math.random()*1000)}>
+            <div className='card' key={card.id}>
                 <img src={card.imgUrl} alt="coffee" />
                 <h6>{card.title}</h6>
+                {card.descr ? <p>{card.descr}</p> : null}
                 <p>{card.price}</p>
             </div>
         )
