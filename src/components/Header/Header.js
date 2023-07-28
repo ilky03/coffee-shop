@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Header.css';
 
 const Header = ({imgUrl, title, page}) => {
@@ -15,7 +17,7 @@ const Header = ({imgUrl, title, page}) => {
             <img src='https://imgur.com/tOhNsBM.png' alt='Beans logo' />
             <h3>We makes every day full of energy and taste</h3>
             <h3>Want to try our beans?</h3>
-            <button>More</button>
+            <Link to="/our-coffee" className='btn'>More</Link>
         </div>
     )
 

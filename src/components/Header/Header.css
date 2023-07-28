@@ -16,7 +16,7 @@
     font-size: 24px;
 }
 
-.header button {
+.header .btn {
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, .0);
     padding: 10px 42px;
@@ -26,7 +26,7 @@
     transition: .5s;
 }
 
-.header button:hover {
+.header .btn:hover {
     background-color: rgba(255, 255, 255, .65);
     cursor: pointer;
 }
